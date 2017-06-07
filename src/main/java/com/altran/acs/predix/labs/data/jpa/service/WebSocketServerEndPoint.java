@@ -57,7 +57,7 @@ public class WebSocketServerEndPoint {
 
 			// Please use postgres Id from manifest.yml file
 
-			return cloud.getServiceConnector("posture-postgres2", DataSource.class, null);
+			return cloud.getServiceConnector("stelia-postgres", DataSource.class, null);
 
 	}
 
