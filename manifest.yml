@@ -1,0 +1,6 @@
+---
+applications:
+  - name: hackathon_stelia
+    buildpack: java_buildpack
+    path: target/hackathon_stelia-1.0.0.jar
+
